@@ -1,0 +1,9 @@
+{
+	"deviceName": "Mi A3",
+	"udid": "c9f22cc82099",
+	"platformName": "Android",
+	"platformVersion": "10.0",
+	"automationName": "UiAutomator2",
+	"appPackage": "com.imdb.mobile",
+	"appActivity": "com.imdb.mobile.HomeActivity"
+}
