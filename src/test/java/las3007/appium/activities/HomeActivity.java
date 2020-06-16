@@ -12,8 +12,8 @@ public class HomeActivity extends BaseActivity {
         super(driver);
     }
 
-    public AccountAcctivity loadAccout() {
+    public AccountActivity loadAccout() {
         waitForPresence(menuAccountBy).click();
-        return  new AccountAcctivity(driver);
+        return  new AccountActivity(driver);
     }
 }

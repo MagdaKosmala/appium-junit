@@ -1,6 +1,6 @@
 package las3007.appium.tests;
 
-import las3007.appium.activities.AccountAcctivity;
+import las3007.appium.activities.AccountActivity;
 import las3007.appium.activities.AuthActivity;
 import las3007.appium.activities.HomeActivity;
 import las3007.appium.activities.LoginActivity;
@@ -39,7 +39,7 @@ public class LoginTest extends BaseTest {
         AuthActivity auth = new AuthActivity(driver);
         auth.submitLoginForm(email,password);
         auth.allowNotifcation();
-        AccountAcctivity account = new HomeActivity(driver).loadAccout();
+        AccountActivity account = new HomeActivity(driver).loadAccout();
 
         assertTrue(account.isAccountIconPresent());
         assertEquals(username, account.getUsername());
